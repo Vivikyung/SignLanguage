@@ -18,10 +18,10 @@ public class LeapmotionReader {
 		Frame frame = controller.frame();
 		
 		System.out.println("Frame id: " + frame.id());
-		System.out.println("timestamp: " + frame.timestamp());
-		System.out.println("hands: " + frame.hands().count());
-		System.out.println("fingers: " + frame.fingers().count());
-		System.out.println("gestures: " + frame.gestures().count());
+		System.out.println("Timestamp: " + frame.timestamp());
+		System.out.println("Hands: " + frame.hands().count());
+		System.out.println("Fingers: " + frame.fingers().count());
+		System.out.println("Gestures: " + frame.gestures().count());
 		
 	}
 	public void onDisconnect(Controller contr) {

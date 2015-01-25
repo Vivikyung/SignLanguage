@@ -96,6 +96,9 @@
 	public void setSign(boolean isPinch, boolean isFist, boolean extend0, boolean extend1, boolean extend2, boolean extend3, boolean extend4, Vector direction,  {
 		
 	}
+	public void setSign(/*overloaded method*/) {
+	
+	}
 	public String getName() {
 		return name;
 	}
