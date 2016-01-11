@@ -6,46 +6,52 @@
 		name = n;
 		switch(n) {
 			case "A":
-				setSign(/*asdfasdf*/);
+				setSign(false, true, false, false, false, false, false, North);
 				break;
 			case "B":
-				setSign(/*asdfasdf*/);
+				setSign(false, false, false, true, true, true, true, North);
 				break;
 			case "C":
-				setSign(/*asdfasdf*/);
+				setSign();
+				//how to curl
 				break;
 			case "D":
-				setSign(/*asdfasdf*/);
+				setSign(true, false, false, true, false, false, false, North);
 				break;
 			case "E":
-				setSign(/*asdfasdf*/);
+				setSign();
+				//how to curl
 				break;
 			case "F":
-				setSign(/*asdfasdf*/);
+				setSign(true, false, false, false, true, true, true, North);
 				break;
 			case "G":
-				setSign(/*asdfasdf*/);
+				setSign(false, true, false, true, false, false, false, West);
 				break;
 			case "H":
-				setSign(/*asdfasdf*/);
+				setSign(false, true, false, true, true, false, false, West);
 				break;
 			case "I":
-				setSign(/*asdfasdf*/);
+				setSign(false, true, false, false, false, false, true, West);
 				break;
 			case "J":
-				setSign(/*asdfasdf*/);
+				setSign();
+				//gesture
 				break;
 			case "K":
-				setSign(/*asdfasdf*/);
+				setSign(false, false, false, true, true, false, false, North);
 				break;
 			case "L":
-				setSign(/*asdfasdf*/);
+				setSign(false, false, true, true, false, false, false, North);
+				//the thumb is pointed away from the fist, so the direction would be east. hard code x2
 				break;
 			case "M":
 				setSign(/*asdfasdf*/);
+				// idk how to read in between fingers
 				break;
 			case "N":
 				setSign(/*asdfasdf*/);
+				//idk how to read in between fingers
 				break;
 			case "O":
 				setSign(/*asdfasdf*/);
@@ -87,7 +93,10 @@
 				break;
 		}
 	}
-	public void setSign(Frame read.getFrame()) {
+	public void setSign(boolean isPinch, boolean isFist, boolean extend0, boolean extend1, boolean extend2, boolean extend3, boolean extend4, Vector direction,  {
+		
+	}
+	public void setSign(/*overloaded method*/) {
 		
 	}
 	public String getName() {
